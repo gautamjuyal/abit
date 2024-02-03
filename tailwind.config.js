@@ -12,7 +12,7 @@ export default {
         'gloria' : ['Gloria Hallelujah', 'cursive']
       },
       backgroundImage: {
-        'paper': "url('bg-paper.jpg')"
+        'paper': "url('/public/bg-paper.jpg')"
       }
     },
   },

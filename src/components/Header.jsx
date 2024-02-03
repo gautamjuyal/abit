@@ -1,6 +1,6 @@
 const Header = ()=>{
   return(
-    <div className="w-full h-[110px] flex items-center bg-paper bg-center">
+    <div className="w-full h-[110px] flex items-center bg-paper bg-[#f7f7f7] bg-center">
       <div className="pl-[123px]">
         <img src="aBit.png" alt="logo" className="w-[46px]" />
       </div>

@@ -6,7 +6,7 @@ const UserCard = ({className})=>{
     profileMode : 'Creator'
   }
   return(
-    <div className={`border flex bg-paper bg-top shadow-lg shadow-[#aeaeae] max-w-[571px] rounded-[24px] overflow-hidden font-inter ${className}`}>
+    <div className={`border flex bg-paper bg-[#f7f7f7] bg-top shadow-lg shadow-[#aeaeae] max-w-[571px] rounded-[24px] overflow-hidden font-inter ${className}`}>
       <div className="flex">
         <img src="creator.png" alt="creator" className="w-full object-cover" />
       </div>
