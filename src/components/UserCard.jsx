@@ -6,7 +6,7 @@ const UserCard = ({className})=>{
     profileMode : 'Creator'
   }
   return(
-    <div className={`border flex bg-[#b4b4b4] max-w-[571px] rounded-[24px] overflow-hidden ${className}`}>
+    <div className={`border flex bg-paper bg-top shadow-lg shadow-[#aeaeae] max-w-[571px] rounded-[24px] overflow-hidden font-inter ${className}`}>
       <div className="flex">
         <img src="creator.png" alt="creator" className="w-full object-cover" />
       </div>
@@ -19,7 +19,7 @@ const UserCard = ({className})=>{
           <div className="font-bold">Bio</div>
           <div>{user.bio}</div>
         </div>
-        <div className="w-full border-2 border-[#000] rounded-md mt-4 bg-[#00000065]">
+        <div className="w-full border-2 border-[#000] rounded-md mt-4 bg-[#00000065] font-serif">
           <div className="flex w-[50%] bg-[#fff] justify-center py-2 rounded-md border-r-2 border-[#000]">Creator</div>
         </div>
       </div>

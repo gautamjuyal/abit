@@ -1,6 +1,6 @@
 const ReleasedVideo = ({details})=>{
   return(
-    <div className={`w-[283px] h-[312px] relative flex rounded-[24px] overflow-hidden`}>
+    <div className={`w-[283px] h-[312px] relative flex rounded-[24px] overflow-hidden font-inter`}>
       <img src={`${details.thumbnail}`} alt="thumbnail"  className="absolute object-cover w-full h-full z-[-1]"/>
       <div className="w-full h-full text-[#fff] p-4 flex flex-col justify-between">
         <div className="font-bold text-[20px]">{details.name}</div>

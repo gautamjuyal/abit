@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inter' :  ['Inter', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif'],
+        'gloria' : ['Gloria Hallelujah', 'cursive']
+      },
+      backgroundImage: {
+        'paper': "url('bg-paper.jpg')"
+      }
+    },
   },
   plugins: [],
 }
